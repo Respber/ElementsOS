@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+
+<link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+<script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="jquery-ui-1.12.1/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="jquery-ui-1.12.1/jquery-ui.min.css" />
+<script src="jquery.color-2.1.2.min.js"></script>
+
+<link rel="stylesheet" href="style.css">
+<script src="database.js"></script>
+
+<title>Elements OS</title>
+</head>
+
+<body>
+	
+	<img src="img/bg0.jpg" id="main_bg">
+	<div class="header">
+		<button id="app_bt"  type="button" class="btn btn-light"><span class="fa fa-windows icon"></span></button>
+		<!--onClick="insertFrame(db.app.system.url[0],0,'123')"
+		<button onClick="" type="button" class="btn btn-light"><span class="fa fa-cloud icon"></span></button>
+		<button onClick="" type="button" class="btn btn-light"><span class="fa fa-envelope icon"></span></button>-->
+
+		
+		<div class="icon_tab" id="icon_tab"></div>
+		
+		<div class="head_app" id="ttime">
+			<span id="time">00:00</span>
+			<span id="date">2020/1/1</span>
+		</div>
+	</div>
+	<div class="app_tab" id="app_tab" isClosed="1">
+		<div class="shadow" style="width:150px;height:150px;top:0px;left:0px;">
+			<span id="day" style="margin-top:25px;font-family:HYYouYuanTi;font-size:25px;display:block;text-align:center;color:white;">星期一</span>
+			<span id="dat" style="display:block;text-align:center;color:white;font-size:50px;font-family:HYYouYuanTi;">1</span>
+		</div>
+		<div class="shadow" style="width:300px;height:150px;top:0px;left:155px;">
+			<img src="img/icon/favicon.ico" style="position:absolute;left:125px;top:30px;width:50px;height:50px;">
+			<span style="position:absolute;bottom:5px;left:5px;">test</span>
+		</div>
+	</div>
+<script src="javascript.js"></script>
+</body>
+</html>
